@@ -1,0 +1,243 @@
+/************** 
+Author	: Rakib Al Hasan Rifat
+email	: rakibalhasanrifat786@gamil.com
+***************/
+
+/*
+1. Global CSS
+
+*/
+
+/* Global CSS */
+.center{
+	margin: 0 auto;
+	display: block;
+}
+.row{
+	margin: 0 auto;
+	display: block;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+/* Background Section Start */
+.bg-img{
+	background: url(../images/bg-img.png) no-repeat center;
+	background-size: cover;
+}
+.logo{
+	padding-top: 18px;
+}
+.bg-img ul li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	padding-bottom: px;
+	padding-top: 25px;
+	padding-left: 25px;
+	font-size: 16px;
+}
+.bg-img ul li a:hover{
+	color: #6a6f6a;
+	transition: 0.7s;
+}
+.bg-img ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu-bar{
+	float: right;
+}
+.btn-default {
+    color: #2ecc71;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 3px 13px;
+    margin-top: -5px;
+}
+.btn-default:hover {
+    color: #057735;
+    background-color: #fff;
+    border-color: #fff;
+    padding: 3px 25px;
+    transition: 0.7s;
+    text-decoration: none;
+}
+.smart-content h1, p{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+}
+.smart-content h1{
+	font-size: 60px;
+	padding-bottom: 10px;
+	transform: scale3d(1,1,1);
+	transition: 0.9s ease;
+}
+.smart-content h1 span{
+	font-weight: 900;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img,
+.img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    margin-right: 25px;
+}
+.bg-phone img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+.app-icon{
+	margin-top: 186px;
+	margin-bottom: 30px;
+}
+.app-store{
+	margin-top: 60px;
+}
+/* Background Section End */
+/* Counter Section Start */
+.phone-img img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.counter-section h3{
+	color: #5a5a5a;
+	font-size: 50px;
+	font-weight: 300;
+	padding-bottom: 10px
+}
+.counter-section h3 span{
+	color: #2ecc71;
+	font-size: 50px;
+	font-weight: 300;
+}
+.counter-section p{
+	color: #777777;
+	font-size: 18px;
+	font-weight: 300;
+}
+.counter-text{
+	margin-top: 250px;
+}
+/* Counter Section End */
+/* Diet Section Start */
+.diet-section{
+	background: url(../images/diet-img.png) no-repeat center;
+	background-size: cover;
+}
+.diet-section h3{
+	color: #5a5a5a;
+	font-size: 50px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	text-align: center !important;
+	margin-top: 60px;
+}
+.diet-section h3 span{
+	color: #2ecc71;
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center !important;
+}
+.diet-section p{
+	color: #777777;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+}
+/* Diet Section End */
+/* Manage Meal Section Start */
+.meal-text{
+	margin-top: 168px;
+}
+.manage-meal h3{
+	color: #5a5a5a;
+	font-size: 50px;
+	font-weight: 300;
+	padding-bottom: 7px;
+	margin-top: 60px;
+	float: left;
+}
+.manage-meal h3 span{
+	color: #2ecc71;
+	font-size: 50px;
+	font-weight: 300;
+	float: left;
+}
+.manage-meal p{
+	color: #777777;
+	font-size: 18px;
+	font-weight: 300;
+	float: left;
+}
+.meal-img{
+	margin-top: 90px;
+	float: right;
+	margin-bottom: 100px;
+}
+/* Manage Meal Section End */
+
+/* Footer Section Start */
+.footer-section{
+	background: url(../images/footer-img.png) no-repeat center;
+	background-size: cover;
+}
+.footer-section h3{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 50px;
+}
+.footer-section h3 span{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 900;
+	text-align: center;
+}
+.footer-section p{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 40px;
+}
+.btn-secondary{
+    color: #2ecc71;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 3px 60px;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.btn-secondary:hover {
+    color: #057735;
+    background-color: #fff;
+    border-color: #fff;
+    padding: 3px 40px;
+    transition: 0.7s;
+    text-align: center !important;
+    text-decoration: none;
+    position: center;
+    list-style: none;
+}
+/* Footer Section End */

@@ -1,0 +1,551 @@
+/************** 
+Author	: Rakib Al Hasan Rifat
+email	: rakibalhasanrifat786@gamil.com
+***************/
+
+/*** fitapp Landing Page css file ***/
+
+/*
+1. Global CSS
+
+*/
+
+/* Global CSS */
+.center{
+	margin: 0 auto;
+	display: block;
+}
+.row{
+	margin: 0 auto;
+	display: block;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+/* Background Section Start */
+.bg-img{
+	background: url(../images/bg-img.png) no-repeat center;
+	background-size: cover;
+}
+.logo{
+	padding-top: 18px;
+}
+.bg-img ul li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 25px;
+	font-size: 16px;
+}
+.bg-img ul li a:hover{
+	color: #6a6f6a;
+	-webkit-transition:.7s;
+	-o-transition:.7s;
+	transition:.7s;
+}
+.bg-img ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu-bar{
+	float: right;
+}
+.btn-default {
+    color: #2ecc71;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 3px 13px;
+    margin-top: -5px;
+}
+.btn-default:hover {
+    color: #057735;
+    background-color: #fff;
+    border-color: #fff;
+    padding: 3px 25px;
+    transition: 0.7s;
+    text-decoration: none;
+    visibility: visible;
+    animation-name: bounceIn;
+    -webkit-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+}
+.smart-content h1, p{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 45px;
+}
+.smart-content h1{
+	font-size: 60px;
+	padding-bottom: 10px;
+	transform: scale3d(1,1,1);
+	transition: 0.9s ease;
+}
+.smart-content h1 span{
+	font-weight: 900;
+}   
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive, .thumbnail a > img,
+.thumbnail > img {
+    display: inline;
+    max-width: 100%;
+    height: auto;
+}
+.download-icon img {
+	-webkit-transition:.8s;
+	-o-transition:.8s;
+    transition: .8s;
+    padding-right: 25px;
+}
+.bg-phone img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 85px;
+}
+.app-icon img{
+	padding-top: 230px;
+	padding-bottom: 10px;
+	transition: 0.9s;
+	-webkit-transition:.9s;
+	-o-transition:.9s;
+}
+.download-icon img:hover{
+	-webkit-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	transform:scale(1.2)
+}
+
+
+/* Background Section End */
+/* Counter Section Start */
+.counter-section{
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+.counter-section h3{
+	color: #5a5a5a;
+	font-size: 50px;
+	font-weight: 300;
+	padding-bottom: 10px
+}
+.counter-section h3 span{
+	color: #2ecc71;
+	font-size: 50px;
+	font-weight: 300;
+}
+.counter-section p{
+	color: #777777;
+	font-size: 18px;
+	font-weight: 300;
+}
+.counter-text{
+	margin-top: 250px;
+}
+.phone-two {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	transition: 1s;
+}
+.phone-two:hover{
+	-webkit-transform:rotate(720deg);
+	-ms-transform:rotate(720deg);
+	transform:rotate(720deg)	
+}
+/* Counter Section End */
+/* Diet Section Start */
+.diet-section{
+	background: url(../images/diet-img.png) no-repeat center;
+	background-size: cover;
+}
+.diet-img{
+	margin-top: 60px;
+	max-width: 100%;
+    height: auto;
+}
+.diet-section h3{
+	color: #5a5a5a;
+	font-size: 50px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	text-align: center !important;
+	margin-top: 60px;
+}
+.diet-section h3 span{
+	color: #2ecc71;
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center !important;
+}
+.diet-section p{
+	color: #777777;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+}
+/* Diet Section End */
+/* Manage Meal Section Start */
+.meal-text{
+	margin-top: 168px;
+}
+.manage-meal h3{
+	color: #5a5a5a;
+	font-size: 50px;
+	font-weight: 300;
+	padding-bottom: 7px;
+	margin-top: 60px;
+	float: left;
+}
+.manage-meal h3 span{
+	color: #2ecc71;
+	font-size: 50px;
+	font-weight: 300;
+}
+.manage-meal p{
+	color: #777777;
+	font-size: 18px;
+	font-weight: 300;
+	float: left;
+}
+.meal-img{
+	margin-top: 90px;
+	float: right;
+	margin-bottom: 100px;
+}
+/* Manage Meal Section End */
+
+/* Footer Section Start */
+.footer-section{
+	background: url(../images/footer-img.png) no-repeat center;
+	background-size: cover;
+}
+.footer-section h3{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 50px;
+}
+.footer-section h3 span{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 900;
+	text-align: center;
+}
+.footer-section p{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 40px;
+}
+.btn-secondary{
+    color: #2ecc71;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 3px 60px;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.btn-secondary:hover {
+    color: #057735;
+    background-color: #fff;
+    border-color: #fff;
+    padding: 3px 40px;
+    transition: 0.7s;
+    text-align: center !important;
+    text-decoration: none;
+    position: center;
+    list-style: none;
+}
+.footer-section h5{
+	font-size: 10px;
+	color: #fff;
+}
+/* Footer Section End */
+
+
+/** Media Query Start **/
+/** Extra small devices (portrait phones, less than 576px)**/
+
+@media (max-width: 575px){
+ul, menu, dir {
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 10px;
+}
+.menu-bar{
+	float: none !important;
+}
+.bg-img ul li a{
+	padding-inline-start: 0px !important;
+	font-size: 17px;
+}
+.btn-default {
+    margin-top: 15px;
+} 
+.app-icon img {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+}
+.smart-content h1 {
+    font-size: 36px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.smart-content h1, p {
+    font-weight: 400;
+    text-align: center;
+}
+.download-icon{
+    text-align: center;
+    margin-top: 30px;
+}
+.bg-phone img {
+   padding-top: 50px;
+   width: 250px;
+   margin: 0 auto;
+   display: block !important;
+   float: none !important;
+}
+.counter-section h3 {
+    padding-top: -30px;
+    text-align: center;
+    display: none block;
+}
+.counter-section h3 {
+    margin-top: -150px;
+}
+.smart-content h1, p {
+    padding-bottom: 5px;
+}
+.diet-img {
+    padding-right: 0px;
+    vertical-align: center;
+}
+.manage-meal h3 {
+    margin-top: -90px;
+    text-align: center;
+    float: none !important;
+}
+.manage-meal p {
+    float: none !important;
+    text-align: center;
+}
+.manage-meal p {
+    margin-bottom: -50px;
+}
+.meal-img{
+    margin-bottom: 40px;
+}
+.footer-section h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30px;
+}
+}
+
+
+/** Small devices (landscape phones, 576px and up)**/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+.menu-bar{
+	float: none !important;
+}
+.bg-img ul li{
+	padding-left: 15px;
+	font-size: 16px;
+}
+.app-icon img {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+}
+.smart-content h1 {
+    font-size: 48px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.smart-content h1, p {
+    font-weight: 400;
+}
+.download-icon{
+    text-align: center;
+    margin-top: 30px;
+}
+.bg-phone img {
+   padding-top: 50px;
+   width: 260px;
+   margin: 0 auto;
+   display: block !important;
+   float: none !important;
+}
+.phone-two {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: 1s;
+    margin-left: 10px;
+}
+.counter-section h3 {
+    padding-top: -30px;
+    text-align: center;
+    display: none block;
+}
+.counter-section h3 {
+    margin-top: -150px;
+}
+.smart-content h1, p {
+    padding-bottom: 5px;
+    text-align: center;
+}
+.diet-img {
+    padding-right: 0px;
+    vertical-align: center;
+}
+.manage-meal h3 {
+    margin-top: -90px;
+    text-align: center;
+    float: none !important;
+}
+.manage-meal p {
+    float: none !important;
+    text-align: center;
+}
+.manage-meal p {
+    margin-bottom: -50px;
+}
+.meal-img{
+    margin-bottom: 40px;
+}
+}
+
+
+
+
+/** Medium devices (tablets, 768px and up)**/
+
+@media (min-width: 768px) and (max-width: 991px) {
+ul, menu, {
+    display: inline-block;
+    padding-inline-start: 0 !important;
+}
+.bg-img ul li {
+    padding-top: 0px;
+}
+.bg-img ul li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+}
+.app-icon img {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+}
+.smart-content h1 {
+    font-size: 48px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.smart-content h1, p {
+    font-weight: 400;
+}
+.download-icon{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.bg-phone img {
+   padding-top: 50px;
+   width: 260px;
+   margin: 0 auto;
+   display: block !important;
+   float: none !important;
+}
+.counter-section h3 {
+    padding-top: -30px;
+    text-align: center;
+    display: none block;
+}
+.counter-section h3 {
+    margin-top: -150px;
+}
+.smart-content h1, p {
+    padding-bottom: 5px;
+    text-align: center;
+}
+.manage-meal h3 {
+    margin-top: -90px;
+    text-align: center;
+    float: none !important;
+}
+.manage-meal p {
+    float: none !important;
+    text-align: center;
+}
+.manage-meal p {
+    margin-bottom: -50px;
+}
+.meal-img{
+    margin-bottom: 40px;
+    display: center;
+}
+
+}
+
+
+/** Large devices (desktops, 992px and up)**/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.smart-content h1 {
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+.download-icon{
+    margin-bottom: 60px;
+}
+.counter-section h3 {
+    margin-top: -60px;
+    margin-bottom: 10px;
+}
+.manage-meal h3 {
+    margin-top: 30px;
+}
+
+}
+
+
+/** Extra large devices (large desktops, 1200px and up)**/
+
+@media (min-width: 1200px) {
+  
+}
